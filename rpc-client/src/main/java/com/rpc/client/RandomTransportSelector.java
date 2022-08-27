@@ -5,7 +5,7 @@ import com.rpc.common.util.ReflectionUtils;
 import com.rpc.transport.TransportClient;
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.Collections;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -22,7 +22,7 @@ public class RandomTransportSelector implements TransportSelector {
     private final List<TransportClient> clientList;
 
     public RandomTransportSelector() {
-        clientList =  Collections.synchronizedList(Collections.emptyList());
+        clientList =  new ArrayList<>();
     }
 
 
