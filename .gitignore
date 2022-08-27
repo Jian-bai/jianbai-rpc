@@ -1,0 +1,23 @@
+.idea/
+.vscode/
+logs/
+*.log
+target/
+**/target
+*.iml
+*.class
+test/
+
+Test
+*.sql
+*.zip
+**/rebel.xml
+
+# for eclipse
+*.prefs
+*.project
+*.classpath
+*.factorypath
+*.json
+*.ipr
+*.iws
